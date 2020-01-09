@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Victron_MultiPlus_24_3000_70-50_120V_VE.Bus_Inverter_Charger
+#
+DEF Victron_MultiPlus_24_3000_70-50_120V_VE.Bus_Inverter_Charger multiplus_24_3000_70_50_120 0 40 Y Y 1 F N
+F0 "multiplus_24_3000_70_50_120" -650 600 50 H V C CNN
+F1 "Victron_MultiPlus_24_3000_70-50_120V_VE.Bus_Inverter_Charger" 50 750 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -250 300 50 0 0 0 AC-IN Normal 0 C C
+T 0 200 300 50 0 0 0 AC-OUT Normal 0 C C
+S -600 100 0 500 0 0 0 N
+S -300 -750 0 100 0 0 0 N
+S 0 500 600 100 0 0 0 N
+S 300 -750 0 100 0 0 0 N
+S 600 -750 -600 100 0 0 0 N
+X Aux+ ~ -500 -750 100 U 50 50 1 1 I
+X Aux- ~ -400 -750 100 U 50 50 1 1 I
+X Battery+ ~ 200 -750 100 U 50 50 1 1 B
+X Battery- ~ 100 -750 100 U 50 50 1 1 B
+X Ground ~ -600 200 100 R 50 50 1 1 I
+X Ground ~ 600 200 100 L 50 50 1 1 O
+X L ~ -600 400 100 R 50 50 1 1 I
+X L ~ 600 400 100 L 50 50 1 1 O
+X N ~ -600 300 100 R 50 50 1 1 I
+X N ~ 600 300 100 L 50 50 1 1 O
+X Temp-sensor+ ~ -200 -750 100 U 50 50 1 1 I
+X Temp-sensor- ~ -100 -750 100 U 50 50 1 1 I
+X VE.BUS-1 ~ 400 -750 100 U 50 50 1 1 U
+X VE.BUS-2 ~ 500 -750 100 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

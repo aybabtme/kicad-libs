@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Orion_Jr_BMS
+#
+DEF Orion_Jr_BMS orion_jr_bms 0 40 Y Y 1 F N
+F0 "orion_jr_bms" 0 -2400 50 H V C CNN
+F1 "Orion_Jr_BMS" 0 200 50 H V C CNN
+F2 "" 400 400 50 H I C CNN
+F3 "" 400 400 50 H I C CNN
+DRAW
+S -1000 100 1000 -2500 0 1 0 N
+X cell_01 ~ -1100 -300 100 R 50 50 0 0 B
+X cell_01- ~ -1100 -200 100 R 50 50 0 0 B
+X cell_02 ~ -1100 -400 100 R 50 50 0 0 B
+X cell_03 ~ -1100 -500 100 R 50 50 0 0 B
+X cell_04 ~ -1100 -600 100 R 50 50 0 0 B
+X cell_05 ~ -1100 -700 100 R 50 50 0 0 B
+X cell_06 ~ -1100 -800 100 R 50 50 0 0 B
+X cell_07 ~ -1100 -900 100 R 50 50 0 0 B
+X cell_08 ~ -1100 -1000 100 R 50 50 0 0 B
+X cell_09 ~ -1100 -1100 100 R 50 50 0 0 B
+X cell_10 ~ -1100 -1200 100 R 50 50 0 0 B
+X cell_11 ~ -1100 -1300 100 R 50 50 0 0 B
+X cell_12 ~ -1100 -1400 100 R 50 50 0 0 B
+X cell_13 ~ -1100 -1600 100 R 50 50 0 0 B
+X cell_13- ~ -1100 -1500 100 R 50 50 0 0 B
+X cell_15 ~ -1100 -1800 100 R 50 50 0 0 B
+X cell_16 ~ -1100 -1900 100 R 50 50 0 0 B
+X current_shunt+ ~ -1100 0 100 R 50 50 0 0 I
+X current_shunt- ~ -1100 -100 100 R 50 50 0 0 I
+X rs232_gnd ~ 1100 -2200 100 L 50 50 0 0 B
+X rs232_rts ~ 1100 -2300 100 L 50 50 0 0 B
+X rs232_rx ~ 1100 -2000 100 L 50 50 0 0 B
+X rs232_tx ~ 1100 -2100 100 L 50 50 0 0 B
+X total_pack+ ~ -1100 -2000 100 R 50 50 0 0 I
+X charge_enable 1 1100 0 100 L 50 50 0 0 C
+X thermistor_1 10 1100 -900 100 L 50 50 0 0 I
+X state_of_charge 11 1100 -1000 100 L 50 50 0 0 O
+X thermistor_2 12 1100 -1100 100 L 50 50 0 0 I
+X charge_current_limit 13 1100 -1200 100 L 50 50 0 0 O
+X discharge_current 14 1100 -1300 100 L 50 50 0 0 O
+X multi_purpose_input 15 1100 -1400 100 L 50 50 0 0 I
+X thermistor_3 16 1100 -1500 100 L 50 50 0 0 I
+X multi_purpose_output2 17 1100 -1600 100 L 50 50 0 0 O
+X can_l 19 1100 -1700 100 L 50 50 0 0 B
+X ready_power 2 1100 -100 100 L 50 50 0 0 w
+X can_h 20 1100 -1800 100 L 50 50 0 0 B
+X discharge_enable 3 1100 -200 100 L 50 50 0 0 C
+X charge_power 4 1100 -300 100 L 50 50 0 0 w
+X charge_safety 5 1100 -400 100 L 50 50 0 0 C
+X ground 6 1100 -500 100 L 50 50 0 0 I
+X multi_purpose_enable 7 1100 -600 100 L 50 50 0 0 C
+X thermistor_ground 8 1100 -700 100 L 50 50 0 0 I
+X multi_purpose_output1 9 1100 -800 100 L 50 50 0 0 O
+X cell_14 ~ -1100 -1700 100 R 50 50 0 0 B
+X rs232_cts ~ 1100 -2400 100 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
